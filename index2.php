@@ -34,34 +34,23 @@ echo strlen($date). "<br>";
 echo ord($date). "<br>";
 
 /* question 8 */
-echo substr($date, -2);
-echo "<br>";
+$lastletter = array($date[1], $date[2]);
+for ($a = 0; a < $lastletter.length; $a++) {
+	echo $lastletter[$a];
+}
+echo "<br>"
 
-/* question 9 */
 for ($i=0; $i < $date.length; $i++) {
 	if ($date[$i] == '') {
 		$date[$i] = '/';
 		}
 }
-
-$newdate = explode("/", $date);
-	echo $newdate[0]." ";
-	echo $newdate[1]." ";
-	echo $newdate[2];
-
-echo "<br><br>";
-
-/*question 10 */
-
-$year = array("2012", "396", "300","2000", "1100", "1089");
-
-foreach ($year as $value) {
-	if ($value % 4 == 0) {
-		echo "True ";
-	}
-	else {
-		echo "False ";
-	}
+$newdate = explode("/", $date). "<br>"
+for($z = 0; z < $newdate.length; z++) {
+	echo $newdate[$z];
 }
+$year = array("2012", "396", "300","2000", "1100", "1089");
+echo "The value of \$year: ";
+print_r($year)
 
 ?>
