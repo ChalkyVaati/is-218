@@ -24,10 +24,16 @@ echo $date;
 
 /* using the date string above question 5 */
 $words = explode(" ", $date);
-echo count($words). "<br>"
+echo count($words). "<br>";
 
+/* Question 6 uses the same code as question 5*/
+$words = explode(" ", $date);
+echo strlen($date). "<br>";
+
+/*question 7 using the date string */
+echo ord($date). "<br>";
 $year = array("2012", "396", "300","2000", "1100", "1089");
-echo "The value of $year: ";
+echo "The value of \$year: ";
 print_r($year)
 
 ?>
