@@ -103,7 +103,20 @@
     					$conn->exec($sql);
     					echo "New record created successfully";
     				}
-    	
+    				catch(PDOException $e) {
+    					echo $sql . "<br>" . $e->getMessage();
+    				}
+    			}
+    			}
+
+    		catch(PDOException $e) {
+    			echo "Error: " . $e->getMessage();
+    		}
+    		$conn = null;
+
+    	}
+
+    	}
 
     function test_input($data) {
       $data = trim($data);
@@ -130,7 +143,22 @@
         <input type ="email" class="form-control" placeholder="Enter Email" id="email" name="email" value="<?php echo $email;?>">
          <span style="color:red"><?php echo $emailErr;?></span>
       </div>
-       
+         <div class="form-group">
+        <label for ="password">Password:</label>
+        <input type="password" class="form-control" placeholder="Enter Password" id="password" name="password" />
+
+      </div>
+      <div class="form-group">
+        <label for ="phone">Phone Number:</label>
+        <input type ="tel" class="form-control" placeholder="Enter Phone Number" id="phone" name="phone">
+      </div>
+      <div class="form-group">
+        <label for ="Bday">Birthday:</label>
+        <input type="date" class="form-control" placeholder="Enter Birthday" id="Bday" name="Bday" />
+      </div>
+       <div class="form-group">
+         <label for="gender">Gender</label>
+
       <div class="col">
         <select id="gender" name="gender">
           <option value="Male">Male</option>
