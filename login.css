@@ -68,7 +68,7 @@ html{
 label{
   font-family:"Oswald";
 font-size: 20px;
- 
+
 }
 #content h2{
   font-family:"Oswald";
@@ -76,10 +76,10 @@ font-size: 20px;
 }
 #content h1{
   font-family:"Oswald";
-  
+
 }
 #content{
-  bbackground: red; 
+  
     background: linear-gradient( #ff7088
 , #70a0ff);
 }
