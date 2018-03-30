@@ -139,6 +139,15 @@ echo "Connected successfully <br>";
 $user = new User();
 $user->displayAllUser();
 $user->deleteUser(450);
-$user->insertUser(450, 'wilpar45@gmail.com', 'Wilson', 'Parker', '-9204', '2000-07-14', 'male', 'password');
+$user->insertUser(450, 'deadpool@gmail.com', 'Wilson', 'Wade', '2020', '1990-05-12', 'male', 'Chimichangas');
 $user->updatePassword(2, '1111');
 ?>
+
+<style>
+body{
+	background-color:#809fff;
+	color: white;
+}
+
+
+</style>
