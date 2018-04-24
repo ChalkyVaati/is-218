@@ -147,7 +147,10 @@ $user->updatePassword(2, '1111');
 body{
 	background-color:#809fff;
 	color: white;
+	font-family: "Oswald";
 }
-
+html{
+	font-family: "Oswald";
+}
 
 </style>

@@ -1,0 +1,15 @@
+html{
+  font-family:'Press Start 2P';
+}
+label{
+  font-family:'Press Start 2P';
+  font-size: 13px;
+}
+button.btn.btn-primary.btn-block{
+  font-family:'Press Start 2P';
+}
+body{
+  
+    background-image: url("http://1.bp.blogspot.com/-Dc5IaBU15T0/VAFBb4AotGI/AAAAAAAALSg/hUmHzxVSzO4/s1600/Pac%2BMan%2B5.gif");
+
+}
